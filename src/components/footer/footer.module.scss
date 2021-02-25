@@ -1,0 +1,19 @@
+.container {
+  padding: 20px 34px;
+  background-color: #eee;
+  .top {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      color: #9f9f9f;
+    }
+  }
+  .bottom {
+    text-align: center;
+    margin-top: 10px;
+    color: #bdbdbd;
+  }
+}

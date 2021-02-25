@@ -1,0 +1,27 @@
+.container {
+  overflow-x: auto;
+  height: 48px;
+  width: 100%;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  width: max-content;
+  .item {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: #9f9f9f;
+    width: max-content;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+
+.itemActive {
+  transition: 0.5s;
+  color: black;
+  border-bottom: 3px solid black;
+}

@@ -1,0 +1,59 @@
+.breaking {
+  padding: 11px 16px;
+  background-color: black;
+  margin: 0;
+  span {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 13px;
+  }
+}
+
+.itemContainer {
+  position: relative;
+  z-index: 1;
+  .item {
+    height: 340px;
+    background-color: yellowgreen !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+    img {
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .title {
+    display: block;
+    z-index: 5;
+    position: absolute;
+    bottom: 40px;
+    background-color: white;
+    padding: 8px 12px;
+    height: 68px;
+    width: 704px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2.5px;
+    h3 {
+      margin: 0;
+    }
+  }
+  .tombol {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .tombolKanan {
+    right: 25px;
+  }
+  .tombolKiri {
+    left: 25px;
+  }
+}

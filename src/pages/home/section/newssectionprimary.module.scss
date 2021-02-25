@@ -1,0 +1,9 @@
+.container {
+  padding: 12px 34px;
+}
+
+.wrapper {
+  display: grid;
+  gap: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
